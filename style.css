@@ -187,3 +187,79 @@ h3{
     justify-content:space-between;
 
 }
+.cabecalho{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+
+.icone{
+
+    font-size:30px;
+
+    margin-bottom:10px;
+
+}
+
+
+.cabecalho h1{
+
+    font-size:20px;
+
+    margin-bottom:8px;
+
+}
+
+
+.cabecalho p{
+
+    color:#ccc;
+
+    font-size:14px;
+
+}
+
+
+
+.senha{
+
+    height:55px;
+
+    background:#111f38;
+
+    border-bottom:2px solid #146cff;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:15px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.senha span{
+
+    color:#bbb;
+
+    font-size:12px;
+
+}
+
+
+
+.senha strong{
+
+    font-size:22px;
+
+    letter-spacing:2px;
+
+}
