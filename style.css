@@ -1,8 +1,209 @@
-.parametro-senha__botao{
-    background-color: var(--fundo-texto);
-    color: var(--branco);
-    border: 2px solid var(--borda);
-    padding: 24px;
-    font-size: 24px;
-    cursor: pointer;
+*{
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#020817;
+}
+
+
+/* cartão principal */
+.senha-container{
+
+    width:1000px;
+    padding:45px;
+
+    background:#061426;
+
+    border:1px solid #1d4b78;
+
+    color:white;
+
+    box-shadow:
+    0 0 20px rgba(0,80,150,.25);
+
+}
+
+
+h2{
+    font-size:28px;
+    margin-bottom:45px;
+}
+
+
+/* organização */
+.conteudo{
+
+    display:flex;
+    gap:80px;
+
+}
+
+
+/* caixas */
+.bloco{
+
+    min-width:220px;
+
+}
+
+
+.bloco h3{
+
+    font-size:18px;
+    margin-bottom:20px;
+
+    font-weight:500;
+
+}
+
+
+/* área vermelha da imagem */
+.caracteres{
+
+    border:3px solid #ff304f;
+
+    padding:20px;
+
+    width:250px;
+}
+
+
+
+/* contador */
+
+.contador{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.contador button,
+.contador span{
+
+    width:45px;
+    height:45px;
+
+    background:#071b35;
+
+    border:1px solid #2260a0;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    font-size:18px;
+
+}
+
+
+.contador button{
+
+    cursor:pointer;
+
+}
+
+
+/* checkbox */
+
+label{
+
+    display:block;
+
+    margin:14px 0;
+
+    font-size:16px;
+
+}
+
+
+input{
+
+    appearance:none;
+
+    width:22px;
+    height:22px;
+
+    margin-right:10px;
+
+    vertical-align:middle;
+
+    border:2px solid #ccc;
+
+}
+
+
+input:checked{
+
+    background:#1478ff;
+
+    border-color:#1478ff;
+
+}
+
+
+input:checked::after{
+
+    content:"✓";
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+
+
+/* força */
+
+.barra{
+
+    width:130px;
+
+    height:28px;
+
+    background:#182338;
+
+    margin-bottom:15px;
+
+}
+
+
+.nivel{
+
+    width:75%;
+
+    height:100%;
+
+    background:#ff304f;
+
+}
+
+
+.legenda{
+
+    width:230px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    font-size:15px;
+
 }
