@@ -188,49 +188,35 @@ h3{
 
 }
 .cabecalho{
-
     text-align:center;
-
     margin-bottom:25px;
-
-}
-
-
-.icone{
-
-    font-size:30px;
-
-    margin-bottom:10px;
-
 }
 
 
 .cabecalho h1{
-
-    font-size:20px;
-
-    margin-bottom:8px;
-
+    font-size:22px;
+    color:white;
 }
 
 
 .cabecalho p{
-
     color:#ccc;
-
     font-size:14px;
+}
 
+
+
+.icone{
+    font-size:30px;
 }
 
 
 
 .senha{
 
+    background:#101d35;
+
     height:55px;
-
-    background:#111f38;
-
-    border-bottom:2px solid #146cff;
 
     display:flex;
 
@@ -240,26 +226,25 @@ h3{
 
     padding:15px;
 
+    border-bottom:2px solid #147cff;
+
     margin-bottom:25px;
 
 }
 
 
-
-.senha span{
-
-    color:#bbb;
+.senha span:first-child{
 
     font-size:12px;
+    color:#aaa;
 
 }
 
 
+.texto-senha{
 
-.senha strong{
+    font-size:20px;
 
-    font-size:22px;
-
-    letter-spacing:2px;
+    color:white;
 
 }
