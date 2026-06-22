@@ -265,3 +265,55 @@ input{
     color:#ccc;
 
 }
+.container{
+    width:600px;
+    padding:30px;
+}
+
+
+.conteudo{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:30px;
+}
+
+
+.caracteres{
+    width:180px;
+    padding:15px;
+}
+
+
+.opcoes{
+    width:180px;
+}
+
+
+.forca{
+    width:160px;
+}
+
+
+h4{
+    font-size:14px;
+}
+
+
+.contador button,
+.contador span{
+    width:35px;
+    height:35px;
+    font-size:16px;
+}
+
+
+.senha{
+    height:50px;
+}
+
+
+.titulo{
+    font-size:18px;
+    margin-bottom:20px;
+}
